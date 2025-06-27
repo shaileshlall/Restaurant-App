@@ -1,0 +1,113 @@
+/* About Hero 1.0*/
+
+.hero_about_section {
+  position: relative;
+  background: url(../assets//hero/hero-1.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 170px;
+  padding-bottom: 90px;
+  height: 450px;
+}
+
+.about_hero_text h1 {
+  font-family: var(--lilita-font);
+  font-size: 3.5rem;
+  font-weight: 400;
+  color: var(--bg-coffee);
+  margin-bottom: 20px;
+}
+
+/* About Section2 4.0 */
+
+.aboutUs_section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--light-grey);
+}
+
+.aboutUs_section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+}
+
+.aboutUs_section p {
+  font-size: 1.125rem;
+}
+
+.aboutUs_section .section_title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--yellow);
+}
+
+/* about section3 */
+
+.aboutUs_booking_section {
+  background: url(../assets/About_Page/section_bg04.png) no-repeat center center;
+  height: 600px;
+  background-size: cover;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.aboutUs_booking_section .section_title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--yellow);
+}
+
+.aboutUs_booking_section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  color: var(--bg-coffee);
+}
+
+.booking-box {
+  background-color: #ffffff;
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.05);
+  align-items: center;
+  height: auto;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+
+.input-group {
+  border-radius: 10px;
+  padding-left: 10px;
+  flex: 1 1 180px;
+  height: 60px;
+}
+
+.form-control {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.form-control:focus {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.input-group-text {
+  background-color: transparent;
+  border: none;
+  color: #888;
+}
+
+@media (max-width: 768px) {
+  .booking-box {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
