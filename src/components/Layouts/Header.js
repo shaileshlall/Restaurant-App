@@ -3,10 +3,9 @@ import "../../Styles/HeaderStyles.css";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo/logo.png";
-import Section1 from "../../Pages/About/Section1";
+// import Section1 from "../../Pages/About/Section1";
 
 const Header = () => {
-
   const [nav, setNav] = useState(false);
 
   // Scroll Navbar
@@ -19,7 +18,11 @@ const Header = () => {
 
   return (
     <header>
-      <Navbar collapseOnSelect expand="lg" className={`${ nav === true ? "sticky" : "" }`}>
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        className={`${nav === true ? "sticky" : ""}`}
+      >
         <Container>
           <Navbar.Brand>
             <Link to="/" className="logo">
