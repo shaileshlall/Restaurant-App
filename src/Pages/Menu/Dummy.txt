@@ -1,0 +1,8 @@
+<div className="tab-pane fade show active d-flex">
+    <div className="row justify-content-center images">
+        <img src={SpecialImg} alt="" className="img-fluid" />
+        <img src={SpecialImg} alt="" className="img-fluid" />
+        <img src={SpecialImg} alt="" className="img-fluid" />
+        <img src={SpecialImg} alt="" className="img-fluid" />
+    </div>
+</div>

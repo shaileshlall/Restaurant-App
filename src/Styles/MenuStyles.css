@@ -1,0 +1,141 @@
+/* Menu Hero Section 1 */
+
+.hero_menu_section {
+  position: relative;
+  background: url(../assets//hero/hero-1.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 170px;
+  padding-bottom: 90px;
+  height: 450px;
+}
+
+.menu_hero_text h1 {
+  font-family: var(--lilita-font);
+  font-size: 3.5rem;
+  font-weight: 400;
+  color: var(--bg-coffee);
+  margin-bottom: 20px;
+}
+
+/* Menu Section 2 */
+
+.Menu_section2 {
+  /* margin-top: 100px;
+    margin-bottom: 100px; */
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: url(../assets/Menu_Page/Menu_Hero_section_bg01.png);
+}
+
+.Menu_section2 h2 {
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+  line-height: 1.2;
+}
+
+.Menu_section2 p {
+  font-size: 1.125rem;
+}
+
+.Menu_section2 .section_title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--yellow);
+}
+
+.nav-link {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.nav-link.active {
+  background-color: var(--yellow);
+  color: var(--light-black);
+}
+
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid var(--yellow);
+}
+
+#nav-tab button {
+  padding: 6px 35px;
+}
+
+@media (max-width: 992px) {
+  #nav-tab button {
+    padding: 6px 12px;
+  }
+}
+
+/* Menu_Section3 */
+
+.Menu_section3 {
+    height: 650px;
+}
+
+.Special-Img1 {
+    position: relative;
+    height: 100%;
+    width: 550px;
+    background: url(../assets/Menu_Page/Menu_gallary1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.Special-Img2 {
+    height: 100%;
+    width: 450px;
+    background: url(../assets/Menu_Page/Menu_gallary2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.Lunch-Dinner-Imgs {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.Special-Img3 {
+    height: 100%;
+    width: 450px;
+    background: url(../assets/Menu_Page/Menu_gallary1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.Special-Img4 {
+    height: 100%;
+    width: 450px;
+    background: url(../assets/Menu_Page/Menu_gallary2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.Hover-text {
+    position: absolute;
+    top: 145%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    width: 300px;
+}
