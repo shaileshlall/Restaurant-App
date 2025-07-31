@@ -1,0 +1,119 @@
+/* Contact Hero Section 1 */
+
+.contact_blog_section {
+  position: relative;
+  background: url(../assets//hero/hero-1.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 170px;
+  padding-bottom: 90px;
+  height: 450px;
+}
+
+.contact_hero_text h1 {
+  font-family: var(--lilita-font);
+  font-size: 3.5rem;
+  font-weight: 400;
+  color: var(--bg-coffee);
+  margin-bottom: 20px;
+}
+
+/* Contact Hero Section 3 */
+
+.contact_form {
+  /* border: 1px solid red; */
+  height: 500px;
+  width: 800px;
+}
+
+.contact_form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact_textarea {
+  height: 200px;
+  width: 100%;
+  padding: 20px 20px;
+  border: 1px solid gray;
+}
+
+.contact_form input:focus,
+.contact_form textarea:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.name_email_field {
+  display: flex;
+  gap: 20px;
+}
+
+.input_field {
+  height: 50px;
+  width: 100%;
+  padding: 20px 20px;
+} 
+
+.contact_submit_btn {
+  width: 150px;
+  height: 70px;
+  border-radius: 5PX;
+  background-color: #fff;
+  color: var(--yellow);
+  border: 1px solid var(--yellow);
+  font-weight: 600;
+  transition: all 15ms ease-in-out;
+  -webkit-transition: all 15ms ease-in-out;
+  -moz-transition: all 15ms ease-in-out;
+  -o-transition: all 15ms ease-in-out;
+  -ms-transition: all 15ms ease-in-out;
+}
+
+.contact_submit_btn:hover {
+  background-color: var(--yellow);
+  color: #fff;
+  border: 1px solid var(--yellow);
+  transition: all 15ms ease-in-out;
+  -webkit-transition: all 15ms ease-in-out;
+  -moz-transition: all 15ms ease-in-out;
+  -o-transition: all 15ms ease-in-out;
+  -ms-transition: all 15ms ease-in-out;
+}
+
+.contact_right_slider3 {
+  height: auto;
+  width: 400px;
+  margin-left: 200px;
+}
+
+.slider_content .card {
+  max-width: 280px;
+}
+
+.slider_content .card .card-body {
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 992px) {
+  .contact_form {
+    width: 100%;
+  }
+
+  .contact_right_slider3 {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .slider_content .card {
+    max-width: 100%;
+    text-align: center;
+  }
+  .contact_submit_btn {
+    width: 100%;
+  }
+}

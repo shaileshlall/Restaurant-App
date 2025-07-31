@@ -1,4 +1,5 @@
 import React from "react";
+import "../../Styles/AboutStyles.css";
 
 function Section3() {
   return (

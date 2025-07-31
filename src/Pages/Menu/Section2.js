@@ -1,26 +1,8 @@
-import React, { useState } from "react";
-// import Section3 from "./Section3";
-// import SpecialImg from "../../assets/hero/hero-2.png";
+import React from "react";
+import "../../Styles/MenuStyles.css";
 
-const Section2 = () => {
-  const [activeTab, setActiveTab] = useState("Special");
-
-  const menuItems = ["Special", "Breakfast", "Lunch", "Dinner"];
-
-  const renderContent = () => {
-    switch (activeTab) {
-      case "Special":
-        return <p>This is the Special menu content.</p>;
-      case "Breakfast":
-        return <p>This is the Breakfast menu content.</p>;
-      case "Lunch":
-        return <p>This is the Lunch menu content.</p>;
-      case "Dinner":
-        return <p>This is the Dinner menu content.</p>;
-      default:
-        return null;
-    }
-  };
+const Section2 = ({ activeTab, setActiveTab }) => {
+  const menuItems = ["TB Recommended", "New Premium Burgers", "Korean Spicy Fest", "Value Meals"];
 
   return (
     <section className="Menu_section2 py-5">
@@ -28,9 +10,9 @@ const Section2 = () => {
         <div className="row justify-content-center">
           <div className="col-xl-7 col-lg-8 col-md-10">
             <div className="section-tittle text-center mb-40">
-              <span className="section_title">Our Offerd Menu</span>
+              <span className="section_title">Our Offered Menu</span>
               <h2 className="mt-3">
-                Some Trendy And Popular <br /> Courses Offerd
+                Our team of seasoned chefs, each a virtuoso in their domain, craft culinary wonders that push <br /> <span className="text_span_color"> the boundaries of creativity. </span>
               </h2>
             </div>
           </div>
@@ -58,9 +40,6 @@ const Section2 = () => {
             </nav>
           </div>
         </div>
-
-        {/* Render the content based on activeTab */}
-        <div className="text-center mt-5">{renderContent()}</div>
       </div>
     </section>
   );

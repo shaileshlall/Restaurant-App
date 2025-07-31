@@ -383,10 +383,12 @@
 
 footer {
   padding-top: 80px;
+  background: url(../assets/footer/footer_bg.png);
+  color: #fff;
 }
 
 footer h5 {
-  color: var(--light-black);
+  color: #fff;
   line-height: 1;
   margin-bottom: 25px;
 }
@@ -410,7 +412,7 @@ footer ul li {
 }
 
 footer ul li i {
-  color: var(--light-black);
+  color: #fff;
 }
 
 footer .copy_right {
@@ -425,7 +427,7 @@ footer .copy_right ul li span {
 }
 
 footer .copy_right ul li a {
-  color: var(--light-black);
+  color: #fff;
 }
 
 footer .copy_right ul li {
@@ -458,7 +460,7 @@ footer .copy_right ul li:last-child::after {
   height: 2.7rem;
   line-height: 3rem;
   text-align: center;
-  background: var(--light-red);
+  background: var(--yellow);
   border-radius: 10%;
 }
 

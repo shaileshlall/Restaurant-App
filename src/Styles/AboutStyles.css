@@ -79,6 +79,16 @@
   height: 60px;
 }
 
+.input-group select:focus {
+  box-shadow: none;
+  border: none;
+}
+
+input.form-control:focus {
+  box-shadow: none;
+  border: none;
+}
+
 .form-control {
   background-color: transparent;
   border: none;
@@ -144,7 +154,6 @@
   font-size: 2.5rem;
 }
 
-
 /* About Section5 */
 
 .aboutUs_section5 {
@@ -203,6 +212,10 @@
   -o-transition: all 15ms ease-in-out;
   -ms-transition: all 15ms ease-in-out;
   border: none;
+}
+
+.inout_form input:focus {
+  outline: none;
 }
 
 @media (max-width: 767px) {

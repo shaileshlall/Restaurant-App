@@ -124,6 +124,12 @@ a {
   transition: all 0.3s ease-in-out !important;
 }
 
+.book_now:hover {
+  color: var(--yellow)!important;
+  background: transparent!important;
+  border-color: var(--yellow)!important;
+}
+
 .btn_red {
   color: var(--white) !important;
   background: var(--light-red) !important;
@@ -134,4 +140,8 @@ a {
   color: var(--light-red) !important;
   background: transparent !important;
   border-color: var(--light-red) !important;
+}
+
+.text_span_color {
+  color: #6f5e4d;
 }

@@ -50,10 +50,16 @@ const Header = () => {
               <Nav.Link as={Link} to="/contact">
                 Contact
               </Nav.Link>
-              <Nav.Link as={Link} to="/">
+              {/* <Nav.Link as={Link} to="/">
                 <div className="cart">
                   <i class="bi bi-bag fs-5"></i>
                   <em className="round-point">2</em>
+                </div>
+              </Nav.Link> */}
+              <Nav.Link as={Link} to="/">
+                <div className="cart">
+                  <button className="btn btn-warning text-dark">Order Online</button>
+                  {/* <em className="round-point">2</em> */}
                 </div>
               </Nav.Link>
             </Nav>
